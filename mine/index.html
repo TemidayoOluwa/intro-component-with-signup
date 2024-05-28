@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesh
+    eet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="apps.js" defer></script>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <main class="container">
+      <div class="container-text">
+        <h1>Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+      <div class="container-form">
+        <h4>Try it free 7 days<span> then $20/mo. thereafter</span></h4>
+        <form action="" id="form">
+            <div class="cover">
+                <div class="blocks">
+                <label for="firstName">
+                    <input type="text" class="firstName general" placeholder="First Name" />
+                </label>
+                <span class="error-icon">
+                    <!-- <img src="/intro-component-with-signup/images/icon-error.svg" alt=""> -->
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+                </span>
+            </div>
+            <div class="error-message"></div>
+            </div>
+           
+            <div class="cover">
+                        <div class="blocks">
+                    <label for="lastName">
+                        <input type="text" class="lastName general" placeholder="Last Name" />
+                    </label>
+                    <span class="error-icon">
+                        <!-- <img src="/intro-component-with-signup/images/icon-error.svg" alt=""> -->
+                        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+                    </span>
+                </div>
+                <div class="error-message"></div>
+
+            </div>
+         
+          
+          <div class="cover">
+                    <div class="blocks">
+                    <label for="email">
+                        <input type="email" class="email general"  placeholder="Email" />
+                    </label>
+                    <span class="error-icon">
+                        <!-- <img src="/intro-component-with-signup/images/icon-error.svg" alt=""> -->
+                        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+                    </span>
+                </div>
+                <div class="error-message"></div>
+          </div>
+          
+          
+          <div class="pass-block">
+            <label for="password">
+              <div class="password-container">
+                <input type="password" id="password" placeholder="Enter your password" class="passy password">
+                <span class="toggle-password" onclick="togglePassword()">
+                    <i id="eye-icon" class="fas fa-eye-slash"></i>
+                </span>
+            </div>
+          </div>
+          
+          </label>
+          <button id="button" type="submit">Claim your free trial</button>
+          <small>
+            By clicking the button, you are agreeing to our
+            <span> Terms and Services</span>
+            </small>
+        </form>
+      </div>
+      <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    </main>
+  </body>
+</html>

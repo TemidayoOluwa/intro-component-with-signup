@@ -92,8 +92,8 @@ form {
     margin-bottom: 1.2rem;
     transition: all 0.2s ease-in-out;
 }
-.blocks .error {
-    border: 1px solid var(--red);
+.cover .error {
+    outline: 1px solid var(--red);
   }
   
   .password-container:hover,
@@ -104,7 +104,7 @@ form {
 .blocks:focus-within {
     outline: 1.5px solid var(--blue);
   }
-  .blocks svg{
+  .error-icon{
     display: none;
   }
   .passy:hover,
@@ -156,6 +156,7 @@ form {
     color: var(--grayish-blue);
     gap: 0.25rem;
     font-size: .7rem;
+    text-wrap: nowrap;
     /* color: #FF7979; */
   }
   
@@ -188,9 +189,7 @@ form {
       small{
         font-size: .5rem;
       }
-      .passy{
-        font-size: .7rem;
-      }
+      
     .container{
         /* flex-wrap: wrap; */
         flex-direction: column;
